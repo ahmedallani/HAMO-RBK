@@ -1,12 +1,13 @@
 import React, { Component } from "react";
 
-class NavbarManger extends Component {
+class BillList extends Component {
   constructor(props) {
     super(props);
+    this.state = {};
   }
 
   render() {
     return;
   }
 }
-export default NavbarManger;
+export default BillList;
