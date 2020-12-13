@@ -1,0 +1,4 @@
+no jquery 
+decide on Uppercase lowercase on import
+don't import something you will not use 
+remove console.log that you don't need

@@ -1,9 +1,5 @@
 import React, { Component } from "react";
 import ReactDom from "react-dom";
-import Custumer from "./Custumer/Custumer.jsx";
-import Article from "./article/article.jsx";
-import Navbar from "./navbar/navbar.jsx";
-import Bill from "./bill/bill.jsx";
 import $ from "jquery";
 import Login from "./auth/login.jsx";
 import Register from "./auth/register.jsx";

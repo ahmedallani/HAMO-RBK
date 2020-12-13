@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Custumer from "./Custumer/Custumer.jsx";
+import Custumer from "./custumer/Custumer.jsx";
 import Article from "./article/article.jsx";
 import Bill from "./bill/bill.jsx";
 

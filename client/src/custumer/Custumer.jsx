@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Listecustumer from "./Listecustumer.jsx";
 import Addcustumer from "./Addcustumer.jsx";
-import Updatecustumer from "./Updatecustumer.jsx";
+import Updatecustumer from "./UpdateCustumer.jsx";
 
 class Custumer extends Component {
   constructor(props) {
