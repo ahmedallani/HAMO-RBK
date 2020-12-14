@@ -1,6 +1,6 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 module.exports = {
-  entry: __dirname + "/client/src/index.jsx",
+  entry: __dirname + "/client/src/manager.jsx",
   module: {
     rules: [
       {

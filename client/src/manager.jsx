@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ReactDom from "react-dom";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Custumer from "./custumer/Custumer.jsx";
 import Article from "./article/article.jsx";
@@ -41,3 +42,4 @@ class Manager extends Component {
   }
 }
 export default Manager;
+ReactDom.render(<Manager />, document.getElementById("myapp"));

@@ -9,16 +9,17 @@ function Register() {
       method: "POST",
       data: {
         username: RegisterUsername,
-        password: RegisterPassword
+        password: RegisterPassword,
       },
       withCredentials: true,
-      url: "http://localhost:8000/api/auth/register"
+      url: "http://localhost:8000/api/auth/register",
     }).then((res) => console.log(res));
   };
 
   return (
     <div>
       <div>
+        <h1>Register</h1>
         <input
           placeholder="username"
           onChange={(e) => setRegisterUsername(e.target.value)}

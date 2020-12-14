@@ -2,3 +2,9 @@ no jquery
 decide on Uppercase lowercase on import
 don't import something you will not use 
 remove console.log that you don't need
+you can add passport.authenticate as middleware
+router.post("/login") why router.route("/login").post
+register login differant page
+authenticate user after register
+product not article in link
+should not choose the id
